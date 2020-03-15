@@ -5,12 +5,12 @@ Repo with files you often curl and change
 ```
 alias get='curl -OL'
 
-alias get-py-git='get https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
-alias get-conda-flask='get https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
-alias get-conda-pd-profile='get https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
-alias get-conda-tf='get https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
-alias get-conda-xgboost='get https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
-alias get-conda-shap='get https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+alias get-py-git='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+alias get-conda-flask='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+alias get-conda-pd-profile='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+alias get-conda-tf='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+alias get-conda-xgboost='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+alias get-conda-shap='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
 ```
 ## List of files
 
