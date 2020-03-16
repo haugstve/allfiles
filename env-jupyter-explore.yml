@@ -1,0 +1,14 @@
+name: jupyter-explore
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - plotly
+  - seaborn
+  - jupyterlab
+  - nb_conda_kernels

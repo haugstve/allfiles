@@ -1,0 +1,12 @@
+name: pd-profiling
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - pandas<1
+  - scikit-learn
+  - pandas-profiling>=2.5
+  - jupyterlab
+  - jupyter_client=5.*
+  - nb_conda_kernels

@@ -1,0 +1,16 @@
+name: jupyter-tf2
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - plotly
+  - seaborn
+  - jupyterlab
+  - nb_conda_kernels
+  - tensorflow
+  - xgboost

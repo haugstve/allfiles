@@ -1,0 +1,14 @@
+# This enviroment is for development
+name: serve-xgb-flask
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.7
+  - flask
+  - pandas<=1
+  - scikit-learn=0.22.1
+  - gunicorn
+  - pip
+  - pip:
+      - xgboost
