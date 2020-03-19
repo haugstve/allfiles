@@ -15,7 +15,4 @@ alias get-conda-shap='curl -o .gitignore  https://raw.githubusercontent.com/gith
 ## List of files
 
 ### .gitignore for python projects
-The file is based on this [file](https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore) by github. Some extra files which are ignored:
- - data/
- - models/
- - .vs_code
+The file is based on this [file](https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore) by github. Some extra files which are ignored. VS Code project files and some data formats
