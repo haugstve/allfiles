@@ -6,7 +6,7 @@ channels:
 dependencies:
   - python=3.7
   - pandas<=1
-  - scikit-learn=0.22.1
+  - scikit-learn=0.22.2
   - scipy
   - gunicorn
   - plotly
@@ -14,6 +14,4 @@ dependencies:
   - jupyter
   - jupyterlab
   - nb_conda_kernels
-  - pip
-  - pip:
-      - xgboost
+  - xgboost=1.0.2
