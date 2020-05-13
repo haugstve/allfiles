@@ -7,7 +7,7 @@ alias get='curl -OL'
 
 alias get-py-git='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
 alias get-conda-flask='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
-alias get-conda-pd-profile='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
+alias get-conda-pd-profile='curl -o .gitignore  https://raw.githubusercontent.com/haugstve/myfiles/master/env-pd-profiling.yml'
 alias get-conda-tf='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
 alias get-conda-xgboost='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
 alias get-conda-shap='curl -o .gitignore  https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore'
